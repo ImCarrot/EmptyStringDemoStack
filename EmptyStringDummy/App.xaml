@@ -1,0 +1,13 @@
+﻿<Application
+    x:Class="EmptyStringDummy.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EmptyStringDummy"
+    RequestedTheme="Light"
+    xmlns:Converters="using:EmptyStringDummy.Converters">
+
+    <Application.Resources>
+        <Converters:EmptyStringConverter x:Key="EmptyStringConverter"/>
+    </Application.Resources>
+
+</Application>
